@@ -1,0 +1,67 @@
+/* テーブル*/
+    table {
+      width: 50px;
+      height: 10px;
+     border-radius: 10px; 
+     border: solid 1px blue;
+      text-align: right;
+      padding: 15px;
+      margin: 15px;
+    }
+    
+    /*ボタン*/
+    input {
+      width: 100px;
+      height: 50px;
+      font-size: x-large;
+      background-color: #0066FF;
+      border: none;
+      border-radius: 50px;
+      margin-top: 10px;
+      color: #fff;
+      
+    }
+    
+    /*ディスプレイ*/
+    .display {
+      width: 400px;
+      text-align: right;
+      background: #ffffff;
+      border-top: solid black 5px;
+      border-bottom: solid black 5px;
+      border-right: solid black 5px;
+      border-left: solid black 5px;
+      border-radius: 1px;
+    }
+    
+    /*演算子の色*/
+    .operator {
+      background-color: #FF8C00;
+    }
+    
+    /*＝の色*/
+    .equal {
+      background-color: #66FF66;
+    }
+ 
+    /*hover*/
+    input:hover {
+      background: #CCCCCC;
+    }
+    
+    /* ディスプレイhover*/
+    .display:hover {
+      background: #ffffff; 
+    }
+    
+    .operator:hover {
+      background: #CCCCCC;
+    }
+ 
+    /*クリック時に色を変える*/
+    input:active {
+      background:  #000000;
+    }
+    .operator:active {
+      background: #000000;
+    }
