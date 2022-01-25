@@ -1,3 +1,4 @@
+/*電卓*/
 function get_calc(btn) {
       if(btn.value == "=") {
         document.dentaku.display.value = eval(document.dentaku.display.value);
